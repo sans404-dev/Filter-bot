@@ -4,7 +4,7 @@ from aiogram import types
 from aiogram.dispatcher import Dispatcher
 from aiogram.dispatcher.filters import Text
 from config import token, words
-from db_api import create_db, store_info, db_path
+from db_api import create_db, store_info
 from datetime import datetime
 
 bot = Bot(token)
